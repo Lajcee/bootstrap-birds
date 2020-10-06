@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <!-- google fonts -->
+    <!-- favicon -->
+    <!-- fontawesome -->
+    <!-- bootstrap stylesheet -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <!-- jquery-ui -->
+
+    <!-- my own stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>NZ Birds</title>
+
+  </head>
+
+    <main class="container bg-info border  text-warning">
+
+      <nav class=" navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="#">Birdies!!!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Birds
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Kiwi</a>
+              <a class="dropdown-item" href="#">Takahe</a>
+              <a class="dropdown-item" href="#">Tui</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline  my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 text-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+      <h1 class="display-1 mt-5 text-center">NZ Birds</h1>
+
+      <div class="text-center">
+        <svg id="home"  width="6em" height="6em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="orange" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg>
+
+        <svg id="contact" width="6em" height="6em" viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+
+      </div>
+
+      <div id="homeSection" class="">
+
+
+        <p  class="container p-5 bg-light text-dark rounded-pill">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Iste, debitis! Tenetur perspiciatis enim consequatur
+        aspernatur neque cum at iste iusto dolore asperiores magni
+        consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+        commodi.</p>
+
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 1</h2>
+
+          <div class="row container clearfix">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 2</h2>
+
+          <div class="row container clearfix">
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 1</h2>
+
+          <div class="row container clearfix">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 2</h2>
+
+          <div class="row container clearfix">
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 1</h2>
+
+          <div class="row container clearfix">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+
+        <div class="border border-light rounded-pill mb-5">
+          <h2 class="display-4 text-light text-center">Bird 2</h2>
+
+          <div class="row container clearfix">
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <img class="img-thumbnail border rounded-pill p-5" src="images/bird1.jpeg" alt="Birds">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p class="text-light myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste, debitis! Tenetur perspiciatis enim consequatur
+              aspernatur neque cum at iste iusto dolore asperiores magni
+              consequuntur, nisi, nostrum dignissimos! Repellat aliquam,
+              commodi.</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <button class="d-block border border-light rounded-pill btn btn-warning text-primary btn-xl  myBtn" type="button" name="button">View more</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact form -->
+      <div id="contactForm">
+
+
+        <h2 class="text-center">Contact us</h2>
+        <form class="font-weight-bold bg-dark myContact">
+
+          <div class="form-group p-3">
+            <label for="exampleInputPassword1">Name</label>
+            <input type="password" class="form-control " id="exampleInputPassword1">
+          </div>
+
+          <div class="form-group p-3">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text  text-light">We'll never share your email with anyone else.</small>
+          </div>
+
+          <div class="form-group p-3">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-light text-primary ml-3">Submit</button>
+        </form>
+      </div>
+
+    <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="card kiwi p-4 m-4 " style="width: 18rem;">
+  <img src="images/kiwi.jpg" class="card-img-top kiwi" alt="kiwi">
+  <div class="card-body">
+    <h5 class="card-title">Kiwi</h5>
+    <p class="card-text">The kiwi is a unique and curious bird: it cannot fly, has loose, hair-like feathers,
+       strong legs and no tail. Learn more about the kiwi, the national icon of New Zealand and unofficial national emblem.
+     The lowo is very cute and NZ love them </p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Click to view more
+</button>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The NZ Kiwi</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-para" id="exampleModalPara">Kiwi are a significant national icon, equally cherished by all cultures in New Zealand. Kiwi are a symbol for the uniqueness of New Zealand wildlife
+          and the value of our natural heritage.
+The bird itself is a taonga (treasure) to Maori, who have strong
+cultural, spiritual and historic associations with kiwi.
+Its feathers are valued in weaving kahukiwi (kiwi feather cloak) for people of high rank.
+Due to the cultural significance to Maori and the traditional knowledge about the bird,
+tangata whenua are a key stakeholder in kiwi management. For a number of local iwi and hapu throughout New Zealand, this relationship between tangata whenua and kiwi has been formally recognised as part of their Treaty of Waitangi settlement claims, which encompass specific references to species recovery work.
+This includes the Ngai Tahu Claims Settlement Act 1998.
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+<div class="card p-4 m-4" style= "width: 18rem;">
+<img src="images/tui.jpg" class="card-img-top tui" alt="tui">
+<div class="card-body">
+<h5 class="card-title">Tui</h5>
+<p class="card-text">Tui are boisterous, medium-sized, common and widespread bird of forest and suburbia – unless you live in Canterbury. They look black from a distance</p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalTui">
+Click to view more
+</button>
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModalTui" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tui</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-para" id="exampleModalPara">Tui have almost-black heads, underparts, wings and tails that have an iridescent blue and green sheen, especially on the head and wings. The upper back and flanks are dark reddish brown with a bronze sheen, the nape and sides of the neck have filamentous white feathers, and there are two unusual curled white feather tufts on the throat (poi). Small white shoulder patches on the upperwing show prominently in flight, but are usually concealed when perched. The bill and feet are black, and the eye dark brown. he sexes are alike, but the male is larger. Adults have a notch on the 8th primary, and this feather quivers from the narrow part creating the whirring sound in flight. At first, juveniles have a browner body and lack the throat tuft, but after a few months they are only distinguishable
+          n the hand from the lack of notch on the 8th primary.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+<div class="card p-4 m-4" style="width: 18rem;">
+<img src="images/takahe.jpg" class="card-img-top taka" alt="takahe">
+<div class="card-body">
+<h5 class="card-title">Takahe</h5>
+<p class="card-text">The flightless takahē (South Island takahē; Porphyrio hochstetteri), is the world’s largest living rail (a family of small-medium sized ground-dwelling birds with short wings, large feet and long toes). The North Island takahē (moho; P.
+  mantelli). </p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalTaka">
+Click to view more
+</button>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="exampleModalTaka" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Takahe</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-para" id="exampleModalPara">Takahē have stout red legs and a large, strong red beak. Their feathers range from a dark royal blue head, neck and breast, to peacock blue shoulders, through to shades of iridescent turquoise and olive green on their wings and back. They have wings,
+          but only use them for display during courtship or as a show of aggression.
+Takahē only breed once a year, raising 1–2 chicks. Pairs will fiercely defend their territories. Families need a lot of space, with territories ranging between 4–40 ha, depending on the availability and quality of their food.
+Takahē live for 16–18 years in the wild and 20–22 years at sanctuary sites.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </main>
+
+    <!-- jquery -->
+    <script src="jquery-3.5.1.js">
+
+    </script>
+    <!-- jquery-ui -->
+
+    <!-- popperjs -->
+    <script src="popper-core-master/src/popper.js">
+
+    </script>
+    <!-- bootstrap -->
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js">
+
+    </script>
+    <!-- my own script -->
+    <script src="js/script.js">
+
+    </script>
+  </body>
+
+
+</html>
